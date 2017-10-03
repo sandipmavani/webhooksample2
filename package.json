@@ -1,0 +1,18 @@
+{
+  "name": "apiai-webhook-sample2",
+  "version": "1.0.0",
+  "description": "Webhook sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandip Mavani <mavanisandip94@gmail.com> (Truth and Dare)",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "request": "^2.81.0",
+    "requestify": "^0.2.5"
+  }
+}

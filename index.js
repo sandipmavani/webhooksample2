@@ -124,7 +124,7 @@ restService.post('/hook', function (req, res) {
                                                     {
                                                         "simpleResponse":
                                                             {
-                                                                "textToSpeech":"This is a simple response for with suggestion chips"
+                                                                "textToSpeech":"select truth or dare"
                                                             }
                                                     }
                                                 ],

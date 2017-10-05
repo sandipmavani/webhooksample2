@@ -30,7 +30,7 @@ restService.post('/hook', function (req, res) {
                     speech += 'action: ' + requestBody.result.action;
                 }
                 console.log(requestBody.result.resolvedQuery);
-                if(requestBody.result.resolvedQuery == 'Truth')
+                if(requestBody.result.resolvedQuery == 'Truth' || requestBody.result.resolvedQuery == 'truth')
                 {
                     var truth = [
                         'Who is the hottest player?',
@@ -69,7 +69,7 @@ restService.post('/hook', function (req, res) {
                         source: 'apiai-webhook-sample'
                     });
                 }
-                if(requestBody.result.resolvedQuery == 'Dare')
+                if(requestBody.result.resolvedQuery == 'Dare' || requestBody.result.resolvedQuery == 'dare')
                 {
                     var dare = [
                         'Suck a players toes for three seconds.',
